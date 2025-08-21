@@ -1,6 +1,14 @@
 import React from "react";
+import Hero from "./Hero";
+import Skills from "./Skills";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
-const Navbar = () => {
+const Navbar = ({ setDarkTheme, darkTheme }) => {
+  const handleTheme = () => {
+    setDarkTheme(!darkTheme);
+  };
+
   return (
     <div>
       <div className="navbar bg-base-100  fixed top-0 left-0 w-full z-50">
@@ -12,6 +20,7 @@ const Navbar = () => {
               type="checkbox"
               className="theme-controller"
               value="light"
+              onClick={handleTheme}
             />
 
             {/* sun icon */}

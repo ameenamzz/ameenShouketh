@@ -2,69 +2,64 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div className="py-60">
-      <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl font-bold ">
+    <div className="py-20 px-4 sm:px-6 lg:px-12">
+      <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl font-bold">
         Projects
       </h1>
-      <div className="flex mx-38 py-10 flex-wrap">
-        <div className="card bg-base-300 w-96 shadow-sm mx-5 my-10 rounded-lg">
+
+      {/* Responsive grid for cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 py-10">
+        <div className="card bg-base-300 shadow-sm rounded-lg">
           <div className="card-body">
             <h2 className="card-title">Dev Connect</h2>
             <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
+              A platform to connect developers with chat, posts, and collaboration features.
             </p>
-            <div className="card-actions justify-end"></div>
           </div>
         </div>
-        <div className="card bg-base-300 w-96 shadow-sm mx-5 my-10 rounded-lg">
+
+        <div className="card bg-base-300 shadow-sm rounded-lg">
           <div className="card-body">
             <h2 className="card-title">Prompt Planner</h2>
             <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
+              An AI-powered tool to organize and optimize your prompts for better workflow.
             </p>
-            <div className="card-actions justify-end"></div>
           </div>
         </div>
-        <div className="card bg-base-300 w-96 shadow-sm mx-5 my-10 rounded-lg">
+
+        <div className="card bg-base-300 shadow-sm rounded-lg">
           <div className="card-body">
-            <h2 className="card-title">Card title!</h2>
+            <h2 className="card-title">Portfolio Website</h2>
             <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
+              A personal portfolio showcasing my projects, skills, and achievements.
             </p>
-            <div className="card-actions justify-end"></div>
           </div>
         </div>
-        <div className="card bg-base-300 w-96 shadow-sm mx-5 rounded-lg">
+
+        <div className="card bg-base-300 shadow-sm rounded-lg">
           <div className="card-body">
-            <h2 className="card-title">Card title!</h2>
+            <h2 className="card-title">Blog Platform</h2>
             <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
+              A simple and scalable blogging platform with authentication and markdown support.
             </p>
-            <div className="card-actions justify-end"></div>
           </div>
         </div>
-        <div className="card bg-base-300 w-96 shadow-sm mx-5 rounded-lg">
+
+        <div className="card bg-base-300 shadow-sm rounded-lg">
           <div className="card-body">
-            <h2 className="card-title">Card title!</h2>
+            <h2 className="card-title">E-commerce App</h2>
             <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
+              A full-stack MERN app with product catalog, cart, and secure checkout.
             </p>
-            <div className="card-actions justify-end"></div>
           </div>
         </div>
-        <div className="card bg-base-300 w-96 shadow-sm mx-5 rounded-lg">
+
+        <div className="card bg-base-300 shadow-sm rounded-lg">
           <div className="card-body">
-            <h2 className="card-title">Card title!</h2>
+            <h2 className="card-title">Chat Application</h2>
             <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
+              Real-time chat with Socket.io, private messaging, and online status.
             </p>
-            <div className="card-actions justify-end"></div>
           </div>
         </div>
       </div>
