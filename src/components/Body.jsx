@@ -11,9 +11,9 @@ const Body = () => {
     <div>
       <Navbar setDarkTheme={setDarkTheme} darkTheme={darkTheme} />
       <Hero />
-      <Skills setDarkTheme={setDarkTheme} />
+      <Skills setDarkTheme={setDarkTheme} darkTheme={darkTheme} />
       <Projects />
-      <Contact setDarkTheme={setDarkTheme} darkTheme={darkTheme}/>
+      <Contact setDarkTheme={setDarkTheme} darkTheme={darkTheme} />
     </div>
   );
 };
