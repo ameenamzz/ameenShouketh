@@ -6,13 +6,12 @@ const Projects = () => {
       <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl font-bold">
         Projects
       </h1>
-
       {/* Responsive grid for cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
         {[
           {
             title: "Dev Connect",
-            desc: "A platform for people to connect through chat and collaboration features.",
+            desc: "A platform for people to connect through chat and collaboration features..",
           },
           {
             title: "Prompt Planner",
